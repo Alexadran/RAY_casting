@@ -134,7 +134,6 @@ def ray_casting(sc, _pos, _angle):
     else:
         cur_angle = _angle - HALF_FOV  # вычитаем половину из угла игрока и нормалью, чтобы взять 1 луч
 
-    # print(world_map)
     for ray in range(NUM_RAYS):
         # определяем четверть в которой находится угол альфа
         #  math.pi / 2 - что-то типа 90 градусов
